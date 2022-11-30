@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
+body {
+  font-family: "Crimson Text", serif;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  background-color: rgb(54, 81, 127);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.caja0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.caja {
+  border: 1px solid rgb(241, 240, 240);
+  width: 220px;
+  padding: 25px;
+  box-shadow: 0 3px 20px -2px rgb(20 45 100 / 10%);
+  transition: 0.5s;
+}
+
+.caja:hover {
+  transform: translateY(-5%);
+}
+
+.botonpurchase {
+  border-radius: 25px;
+  color: white;
+  background-color: #379cf4;
+  border-color: #379cf4;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  margin-left: 22%;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.botondetails {
+  border-radius: 25px;
+  color: white;
+  background-color: #379cf4;
+  border-color: #379cf4;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+}
+
+.punto {
+  font-size: 43px;
+  color: #379cf4;
+}
