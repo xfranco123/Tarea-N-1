@@ -81,3 +81,8 @@ main {
   font-size: 43px;
   color: #379cf4;
 }
+
+.logo {
+  height: 50px;
+  width: 200px;
+}
